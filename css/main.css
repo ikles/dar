@@ -185,11 +185,45 @@
     margin-bottom: 0;
     width: 100%; }
   .nivoSlider > img {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .price-table {
+    width: 100%; }
+    .price-table td {
+      display: block;
+      width: 100%;
+      text-align: center; }
+      .price-table td > div {
+        width: 100%;
+        text-align: center; }
+  .jbprice-price {
+    width: 100%;
+    text-align: center; }
+    .jbprice-price table {
+      width: 100%; }
+  .jsTotal.total {
+    width: 100%;
+    text-align: center; }
+  .jbprice-buttons {
+    text-align: center; }
+  .moduletablebrands-mod .jbzoo-category-module {
+    width: 100%; }
+    .moduletablebrands-mod .jbzoo-category-module img {
+      max-width: 100%; }
+  #footer {
+    width: 100%;
+    position: relative; }
+  #fr4 {
+    position: absolute;
+    left: 25px;
+    bottom: 0px;
+    padding-right: 0; }
+  #homepage > iframe {
+    display: none; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
-  /**/ }
+  #page {
+    width: 769px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {

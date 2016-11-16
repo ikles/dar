@@ -9,7 +9,7 @@ $(document).ready(function(){
   //$('#header').after($("#bukkit"));
 
 
-
+$('.price-table td').attr('align','');
 
 
 
