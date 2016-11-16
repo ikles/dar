@@ -136,13 +136,13 @@
 		height: auto
 		z-index: 10
 		margin-top: 0
-		ul 
+		> ul 
 			display: inline
-		li 
+		> li 
 			display: block
 			float: none
 			margin: 0
-		a 
+		> a 
 			display: block 
 			color: #FFF 
 			border-radius: 0
@@ -180,10 +180,33 @@
 	ul.menu_up li
 		display: inline
 		height: auto
-	
+		overflow: hidden
+		
+	ul.menu_up
+		z-index: 100
+		position: static
+
 	.menu_up li.parent ul
+		float: none	
+
+	.menu_up li.parent ul li
+		width: 100%
+		float: none
+		
+	.menu_up li.parent > ul
+		width: 100%
 		display: block
+		overflow: hidden
+		
+	.menu_up li.parent:hover ul, .menu_up li.parent:hover ul li
+		width: 100%
 	
+	li.item-275.deeper.parent
+		width: 100%
+
+	.main-mnu
+		
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 	
 	/**/
