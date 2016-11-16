@@ -245,7 +245,13 @@
   .menu_up li.parent:hover ul, .menu_up li.parent:hover ul li {
     width: 100%; }
   li.item-275.deeper.parent {
-    width: 100%; } }
+    width: 100%; }
+  .menu_up li.deeper.parent > a {
+    display: none; }
+  .main-content-wr {
+    width: 100%; }
+  #left-menu {
+    display: none; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
