@@ -75,9 +75,16 @@
   visibility: visible; }
 
 /*input[type=submit]*/
+.top {
+  height: 31px; }
+
+.top, .logo-contacts-cart {
+  overflow: hidden;
+  width: 100%; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1280px) {
   .main-mnu {
     display: none;
     float: right;
@@ -108,7 +115,47 @@
       .main-mnu a:hover {
         text-decoration: underline; }
     .main-mnu a:hover, .main-mnu li.active a {
-      border: none; } }
+      border: none; }
+  /*end main-mnu*/
+  #page {
+    width: 993px;
+    overflow: hidden; }
+  #top-menu {
+    width: 600px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 0;
+    float: left;
+    position: static; }
+  #search {
+    width: 393px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-top: 0;
+    float: left;
+    position: static;
+    margin-left: 0; }
+    #search form {
+      width: 100%;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 372px;
+      position: relative; }
+      #search form input[type=text] {
+        width: 138px; }
+      #search form input[type=submit] {
+        position: absolute;
+        right: 0; }
+  .top {
+    background-color: #212121;
+    padding-top: 10px; }
+  #contacts {
+    width: 100%;
+    float: right;
+    padding: 0;
+    margin-top: 0; }
+  #bukkit {
+    float: right; } }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
