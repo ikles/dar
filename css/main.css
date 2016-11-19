@@ -294,7 +294,7 @@
     margin-top: 20px; }
   #bukkit {
     display: none; }
-  .w100-10px, .logo-contacts-cart, #content {
+  .w100-10px, .logo-contacts-cart, #content, .jcommentsrev {
     width: -webkit-calc(100% - 10px);
     width: calc(100% - 10px);
     margin: auto; }
@@ -302,7 +302,18 @@
     text-align: center; }
   #content {
     float: none;
-    overflow: hidden; } }
+    overflow: hidden; }
+  .jcommentsrev {
+    float: none; }
+  .all-rews:link {
+    width: 50%;
+    display: block;
+    font-size: 15px; }
+  .all-rews2 {
+    right: 0;
+    left: 0; }
+  .jcomments-latest.jcommentsrev {
+    padding-bottom: 40px; } }
 
 @media only screen and (max-width: 640px) {
   /**/ }
