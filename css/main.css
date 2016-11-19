@@ -294,7 +294,7 @@
     margin-top: 20px; }
   #bukkit {
     display: none; }
-  .w100-10px, .logo-contacts-cart, #content, .jcommentsrev {
+  .w100-10px, .logo-contacts-cart, #content, .jcommentsrev, .moduletable_news {
     width: -webkit-calc(100% - 10px);
     width: calc(100% - 10px);
     margin: auto; }
@@ -309,11 +309,52 @@
     width: 50%;
     display: block;
     font-size: 15px; }
-  .all-rews2 {
-    right: 0;
-    left: 0; }
+  .rews2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    z-index: 12;
+    overflow: hidden;
+    margin-bottom: 20px; }
+  .all-rews:link {
+    position: static;
+    float: left;
+    display: block;
+    width: 145px;
+    height: 28px;
+    line-height: 1.8;
+    font-size: 12px;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .all-rews2:link {
+    float: right; }
   .jcomments-latest.jcommentsrev {
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .items.items-col-4 {
+    text-align: center; }
+    .items.items-col-4 .column {
+      width: 40%;
+      margin: 0 4%;
+      margin-bottom: 20px; }
+  .moduletablebrands-mod .category-wrapper {
+    width: 25%;
+    margin: 0 4%;
+    margin-bottom: 20px;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+  .jbzoo .subcategories .column.last, .jbzoo .related-items .column.last, .jbzoo .module-items .column.last, .jbzoo .items .column.last {
+    margin-right: auto; }
+  .moduletablebrands-mod .category-wrapper {
+    margin-bottom: 3px; }
+  .moduletable_news {
+    float: none; }
+  .moduletablebrands-mod .jbzoo-category-module {
+    margin-right: 0;
+    margin: auto; } }
 
 @media only screen and (max-width: 640px) {
   /**/ }
@@ -326,8 +367,29 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  #content {
+    padding-top: 20px; }
   #slider {
-    display: none; } }
+    display: none; }
+  .items.items-col-4 .column {
+    width: 300px;
+    margin: auto;
+    float: none;
+    margin-bottom: 20px; }
+  .moduletablebrands-mod .category-wrapper {
+    width: 44%;
+    margin-right: 3%;
+    margin-left: 3%; }
+  #footer {
+    padding-bottom: 33px; }
+  #fr2 {
+    width: 100%;
+    display: none; }
+  #fr3 {
+    width: 100%;
+    text-align: center; }
+  #fr1 {
+    padding-left: 0; } }
 
 @media only screen and (max-width: 360px) {
   /**/ }
