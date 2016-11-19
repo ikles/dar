@@ -4,6 +4,9 @@
 @media only screen and (max-width : 1280px) 						
 	/*end main-mnu*/			
 
+	.tel .black
+		color: #000 !important 
+
 	#page
 		width: 993px
 		overflow: hidden
@@ -212,11 +215,71 @@
 	
 	#left-menu
 		display: none		
+	
+	#fr1
+		width: 100%
+		text-align: center
+	
+	#fr2
+		width: 66%		
+		box-sizing: border-box
+		padding-top: 0
+		padding-left: 25px
+	
+	#fr3
+		width: 33%		
+		box-sizing: border-box
+		padding-top: 0
+
+	.moduletable_catalogFr1 > div
+		display: none
+
+	#fr4
+		display: none
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 	
-	/**/
- 
+	#page
+		width: 100%			
+	
+	#top-menu
+		width: 100%
+		text-align: center
+	
+	#search
+		display: none
+	
+	.top
+		display: none
+
+	#top-menu		
+		display: none
+	
+	#header, #contacts
+		width: 100%
+		text-align: center
+		margin-top: 0
+		
+	#contacts
+		margin-top: 20px
+		
+	#bukkit		
+		display: none
+	
+	.w100-10px
+		width: calc(100% - 10px)
+		margin: auto
+
+	.logo-contacts-cart
+		text-align: center		
+		@extend .w100-10px
+	
+	#content
+		@extend .w100-10px
+		float: none
+		overflow: hidden
+
+
 @media only screen and (max-width : 640px) 
 	/**/
 		
@@ -228,7 +291,8 @@
 	
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) 
-	/**/	
+	#slider	
+		display: none
 		
 @media only screen and (max-width : 360px) 
 	/**/
