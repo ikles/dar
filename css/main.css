@@ -73,7 +73,8 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
-  /*end main-mnu*/
+  #yoo-zoo .column.rborder.width25 {
+    height: 407px !important; }
   .scrollTop {
     text-decoration: none;
     display: block;
@@ -287,10 +288,26 @@
   .moduletable_catalogFr1 > div {
     display: none; }
   #fr4 {
-    display: none; } }
+    display: none; }
+  #bukkit {
+    margin-right: 0;
+    padding-left: 77px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  #breadcrumbs {
+    width: 100%; }
+    #breadcrumbs .breadcrumb {
+      width: -webkit-calc(100% - 20px) !important;
+      width: calc(100% - 20px) !important;
+      overflow: hidden; }
+  #vina-nivo-islider188 {
+    width: 100% !important; }
+  .moduletable.slider2 {
+    width: 100% !important;
+    overflow: hidden; }
+    .moduletable.slider2 img {
+      width: 100% !important; }
   #page {
     width: 100%; }
   #top-menu {
@@ -372,17 +389,33 @@
     margin-right: 0;
     margin: auto; } }
 
+@media only screen and (max-width: 680px) {
+  .moduletable-top-sorting .element.pages, .moduletable-top-sorting .element.ordering {
+    width: 35%;
+    margin-left: 0;
+    margin-right: 0; }
+  .moduletable-top-sorting .element.ordering {
+    width: 65%; } }
+
 @media only screen and (max-width: 640px) {
-  /**/ }
+  #jivo-iframe-container {
+    right: 0 !important; } }
 
 @media only screen and (max-width: 620px) {
   /**/ }
 
 @media only screen and (max-width: 570px) {
-  /**/ }
+  .moduletable-top-sorting .element.pages, .moduletable-top-sorting .element.ordering {
+    width: 100%; }
+  .jbzoofilter_row.element.ordering .field {
+    float: left; }
+  .checkbox-lbl {
+    display: none !important; } }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .subcategory .subcategory-title a {
+    font-size: 10px; }
   #content {
     padding-top: 20px; }
   #slider {
