@@ -2,6 +2,18 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1280px) 							
+	.jbzoo .jbcompare-table, .jbzoo .jbbasket-table
+		font-size: 14px
+		a
+			font-size: 14px
+		td
+		 padding: 5px
+		 	
+	.jbimage-link
+		img
+			max-width: none !important
+		
+
 	.item-body .tooltip
 		width: 300px
 		-webkit-box-sizing: border-box
@@ -334,7 +346,41 @@
 		padding-left: 77px
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) 	
+@media only screen and (max-width : 768px) 		
+
+	.jbzoo .jbbasket-submission .form-field-row .field-label, .jbzoo .jbbasket-submission .form-field-row .field-input	
+		width: 100%
+		float: none	
+		label[for]
+			width: 100%
+
+	.jbzootabs-accordion .jbzootabs-accordion-content
+		padding-right: 10px
+		padding-left: 10px
+
+	.jbbasket-submission
+		label
+			font-size: 15px
+
+	.jbzoo textarea
+		max-width: 100% !important
+		width: 250px		
+
+	.jbimage-link img, .jbbutton.jsDeleteAll
+		display: none
+	
+	.jbbutton.jsDelete
+		display: none
+
+	.jbzoo .jbbasket-table
+		thead
+			display: none			
+		tr		
+			td:nth-child(2)
+				display: none
+			td:nth-child(3)
+				display: none
+
 	.jbzoo-item
 		.left-full-product
 			width: 100%  !important

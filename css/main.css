@@ -73,6 +73,14 @@
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
+  .jbzoo .jbcompare-table, .jbzoo .jbbasket-table {
+    font-size: 14px; }
+    .jbzoo .jbcompare-table a, .jbzoo .jbbasket-table a {
+      font-size: 14px; }
+    .jbzoo .jbcompare-table td, .jbzoo .jbbasket-table td {
+      padding: 5px; }
+  .jbimage-link img {
+    max-width: none !important; }
   .item-body .tooltip {
     width: 300px;
     -webkit-box-sizing: border-box;
@@ -348,6 +356,29 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .jbzoo .jbbasket-submission .form-field-row .field-label, .jbzoo .jbbasket-submission .form-field-row .field-input {
+    width: 100%;
+    float: none; }
+    .jbzoo .jbbasket-submission .form-field-row .field-label label[for], .jbzoo .jbbasket-submission .form-field-row .field-input label[for] {
+      width: 100%; }
+  .jbzootabs-accordion .jbzootabs-accordion-content {
+    padding-right: 10px;
+    padding-left: 10px; }
+  .jbbasket-submission label {
+    font-size: 15px; }
+  .jbzoo textarea {
+    max-width: 100% !important;
+    width: 250px; }
+  .jbimage-link img, .jbbutton.jsDeleteAll {
+    display: none; }
+  .jbbutton.jsDelete {
+    display: none; }
+  .jbzoo .jbbasket-table thead {
+    display: none; }
+  .jbzoo .jbbasket-table tr td:nth-child(2) {
+    display: none; }
+  .jbzoo .jbbasket-table tr td:nth-child(3) {
+    display: none; }
   .jbzoo-item .left-full-product {
     width: 100%  !important;
     margin-bottom: 10px; }
