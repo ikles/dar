@@ -1,7 +1,64 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1280px) 						
+@media only screen and (max-width : 1280px) 							
+	.jbzoo-item
+		#links_divs .button
+			width: 24%			
+			box-sizing: border-box
+			span
+				font-size: 12px
+		
+		.item-collection-short
+			height: 123px
+		.related-short-item
+			margin-bottom: 12px
+			margin-right: 10px
+			
+		.jbprice-count
+			margin-top: 22px !important
+
+		.item-body .jbprice-price
+			width: 105px
+			margin-top: 11px !important
+		
+	
+		a.jsAddToCart.jsAddToCartItem
+			width: 110px
+			font-size: 15px !important
+			height: 45px
+			margin-right: 10px 
+
+		.left-full-product
+			width: 37%
+			margin-right: 3%
+			overflow: hidden
+			img
+				width: 100%
+				height: auto				
+		
+	.item-image.align-left
+		margin: 0 !important
+		font-size: 0 !important
+		
+	.jbimage-link.jbimage-gallery
+		font-size: 0 !important	
+
+	.right-item-body
+		width: 60% !important
+		overflow: hidden		
+		box-sizing: border-box
+
+	.jbzoo .item-body .jbprice-advance .sale-icon-empty, .jbzoo .item-body .jbprice-advance .hit-icon-simple
+		left: 20px
+
+	.jbzoo .item-body .left-full-product .item-image
+		width: 100%
+		height: auto
+
+	#breadcrumbs
+		width: 100%
+
 	#yoo-zoo .column.rborder.width25		
 		height: 407px !important 
 
@@ -122,8 +179,10 @@
 		width: 100%
 		text-align: center
 
-	.jbprice-buttons
-		text-align: center
+	.jbzoo-item
+		.jbprice-buttons
+			text-align: center
+			margin-top: 0
 
 	.moduletablebrands-mod .jbzoo-category-module
 		width: 100%
@@ -262,8 +321,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 	
-	#breadcrumbs
-		width: 100%	
+	#breadcrumbs		
 		.breadcrumb
 			width: calc(100% - 20px)  !important
 			overflow: hidden
