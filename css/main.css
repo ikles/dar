@@ -70,9 +70,6 @@
 .hidden-lg {
   display: none; }
 
-.mfp-arrow-left::after, .mfp-arrow-left .mfp-a {
-  margin-left: 551px; }
-
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
@@ -190,8 +187,8 @@
         position: absolute;
         right: 0; }
   .top {
-    background-color: #212121;
-    padding-top: 10px; }
+    background-color: #19889a;
+    padding-top: 5px; }
   .logo-contacts-cart {
     padding-top: 10px;
     padding-bottom: 10px; }
