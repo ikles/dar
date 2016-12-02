@@ -70,9 +70,14 @@
 .hidden-lg {
   display: none; }
 
+.mfp-arrow-left::after, .mfp-arrow-left .mfp-a {
+  margin-left: 551px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
+  .jbzoo-item-product.jbzoo-item-teaser .item-image img, .element-relateditems .item .item-image img {
+    width: 100% !important; }
   .jbzoo .jbcompare-table, .jbzoo .jbbasket-table {
     font-size: 14px; }
     .jbzoo .jbcompare-table a, .jbzoo .jbbasket-table a {
@@ -356,6 +361,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
+  .jsTotalCount {
+    display: none; }
   .jbzoo .jbbasket-submission .form-field-row .field-label, .jbzoo .jbbasket-submission .form-field-row .field-input {
     width: 100%;
     float: none; }
@@ -369,7 +376,7 @@
   .jbzoo textarea {
     max-width: 100% !important;
     width: 250px; }
-  .jbimage-link img, .jbbutton.jsDeleteAll {
+  .jbbutton.jsDeleteAll {
     display: none; }
   .jbbutton.jsDelete {
     display: none; }

@@ -2,6 +2,9 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1280px) 							
+	.jbzoo-item-product.jbzoo-item-teaser .item-image img, .element-relateditems .item .item-image img
+		width: 100% $i
+
 	.jbzoo .jbcompare-table, .jbzoo .jbbasket-table
 		font-size: 14px
 		a
@@ -347,6 +350,8 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) 		
+	.jsTotalCount
+		display: none
 
 	.jbzoo .jbbasket-submission .form-field-row .field-label, .jbzoo .jbbasket-submission .form-field-row .field-input	
 		width: 100%
@@ -366,11 +371,11 @@
 		max-width: 100% !important
 		width: 250px		
 
-	.jbimage-link img, .jbbutton.jsDeleteAll
-		display: none
-	
+	.jbbutton.jsDeleteAll
+			display: none
+		
 	.jbbutton.jsDelete
-		display: none
+			display: none
 
 	.jbzoo .jbbasket-table
 		thead
