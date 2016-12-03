@@ -642,7 +642,9 @@
     display: none; }
   .jbzoo-item #links_divs .button td {
     width: 100%;
-    text-align: center; } }
+    text-align: center; }
+  .items.items-col-4 .column {
+    width: 280px !important; } }
 
 @media only screen and (max-width: 360px) {
   .jbzoo-item .item-collection-short {
